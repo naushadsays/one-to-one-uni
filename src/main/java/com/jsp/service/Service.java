@@ -1,6 +1,6 @@
 package com.jsp.service;
 
-import com.jsp.dao.PPADao;
+import com.jsp.dao.PersonPanAadharDao;
 import com.jsp.dto.Aadhar;
 import com.jsp.dto.Pan;
 import com.jsp.dto.Person;
