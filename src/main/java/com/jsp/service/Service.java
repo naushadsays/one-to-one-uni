@@ -6,7 +6,7 @@ import com.jsp.dto.Pan;
 import com.jsp.dto.Person;
 
 public class Service {
-	PPADao ppaDao = new PPADao();
+	PersonPanAadharDao ppaDao = new PersonPanAadharDao();
 
 	public void create(Person p, Aadhar a, Pan pan) {
 		ppaDao.create(p, pan, a);
